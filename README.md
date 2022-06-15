@@ -5,6 +5,8 @@ loads a single request for every TCP connection
 the usest works on the textual format.
 There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
 It uses requests resource Inlining for use getting multiple pages
+
+
 HTTP2
 It works on the binary protocol.
 It allows multiplexing so one TCP connection is required for multiple requests.
